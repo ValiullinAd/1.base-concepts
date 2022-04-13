@@ -10,8 +10,8 @@ function solveEquation(a, b, c) {
     arr = [x];
   }
   if (D > 0) {
-    let x1 = -b + Math.sqrt((b * b)- 4 * a * c);
-    let x2 = -b - Math.sqrt((b * b)- 4 * a * c);
+    let x1 = (-b + Math.sqrt ((b * b)- 4 * a * c)) / (2 * a);
+    let x2 = (-b - Math.sqrt ((b * b)- 4 * a * c)) / (2 * a);
     arr = [x1,x2];
   }
 
